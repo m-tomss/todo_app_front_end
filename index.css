@@ -14,13 +14,13 @@ html{
   
 }
 
-#Add-new-todo-button{
+#add-new-todo-button{
   font-size: 20px; 
   text-align: center;
   color: #FFF;
   outline: none;
   border-style: none;
-  padding: 3px;
+  padding: 2px;
   border-radius: 1px;
   box-shadow: 1px 1px 1px #90A4AE;
   display: block;
@@ -28,7 +28,11 @@ html{
   margin-top: 3px;
 }
 
-#Add-new-todo-button:active{
+#add-new-todo-button:hover{
+  color:red;
+}
+
+#add-new-todo-button:active{
   box-shadow: 1px 1px 1px #90A4AE;
   
 }
